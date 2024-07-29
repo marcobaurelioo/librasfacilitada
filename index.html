@@ -94,21 +94,31 @@
 
 
   <div id="inicio" class="container px-3">
+    <div class="container-video" style="min-height: 200px;">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xonvh2JQAE0?autoplay=1&mute=1"
+        title="vsl curso" frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media;picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <div class="d-flex justify-content-center align-items-center text-center w-100 vem-baixo py-3">
+      <a class="btn btn-outline-info p-4 w-100 link-checkout" target="_blank"> Quero
+        aprender Libras</a>
+    </div>
     <div class="row">
       <div class="col-12 col-lg-6 pe-5 text-center text-lg-start d-flex flex-column justify-content-end  vem-esquerda">
         <h4 class="fs-6 pt-5"><i class='bx bxs-hand text-warning'></i> Seja muito bem-vindo(a) a
           Libras
           facilitada </h4>
-        <div class="container-video" style="min-height: 200px;">
+        <!-- <div class="container-video" style="min-height: 200px;">
           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xonvh2JQAE0?autoplay=1&mute=1"
             title="vsl curso" frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media;picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"></iframe>
-        </div>
-        <div class="d-flex justify-content-center align-items-center text-center w-100 vem-baixo py-3">
+        </div> -->
+        <!-- <div class="d-flex justify-content-center align-items-center text-center w-100 vem-baixo py-3">
           <a class="btn btn-outline-info p-4 w-100 link-checkout" target="_blank"> Quero
             aprender Libras</a>
-        </div>
+        </div> -->
         <h1 class="pt-2" style="font-size: clamp(24px, 5dvw, 55px);">
           Quantas videoaulas você realmente precisa para começar a se comunicar fluentemente em Libras?
         </h1>
@@ -511,7 +521,7 @@
       updateURL: false, // Update the URL on scroll
       popstate: false, // Animate scrolling with the forward/backward browser buttons (requires updateURL to be true)
       // Custom Events
-      emitEvents: true // Emit custom events
+      emitEvents: true // Emit custom events 
     });
 
     $(document).ready(function() {
